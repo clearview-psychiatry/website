@@ -103,7 +103,7 @@
 						</section>
 						<section>
 							<h3>Office</h3>
-							<p><a href="https://goo.gl/maps/oqE6BSHuinFD3zQS7" target="_blank">2808 State St. Suite 102, Erie, PA 16508</a></p>
+							<p><a href="https://goo.gl/maps/YkpzSgR9D31jyPhG6" target="_blank">2808 State St. Suite 102, Erie, PA 16508</a></p>
 						</section>
 					</section>
 					<section class="split contact">
@@ -120,7 +120,7 @@
 
 			<!-- Copyright -->
 				<div id="copyright">
-					<ul><li>&copy;2022 Clearview Psychiatry</li></ul>
+					<ul><li>&copy;<span id="copyright-year">2022</span> Clearview Psychiatry</li></ul>
 				</div>
 
 			</div>
@@ -133,6 +133,7 @@
 			<script src="../assets/js/breakpoints.min.js"></script>
 			<script src="../assets/js/util.js"></script>
 			<script src="../assets/js/main.js"></script>
+			<script>document.querySelector('#copyright-year').innerText = new Date().getFullYear();</script>
 
 	</body>
 </html>
